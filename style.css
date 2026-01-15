@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
+/* ================header================ */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #EAE9E4;
+}
+
+header h1{
+    color: #5A2F27;
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+ul li{
+    list-style: none;
+
+}
+
+li a{
+    text-decoration: none;
+    color: #EDA911;
+}
+
+.call{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.call h3{
+    color: #EDA911;
+    font-weight: bolder;
+}
+
+.call p{
+    color: #5A2F27;
+}
+
+span{
+    color: #EDA911;
+}
+
+/* ================hero================ */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    background-color: #EAE9E4;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+
+.hero_txt h1{
+    width: 20px;
+    font-size: 80px;
+}
+
+.hero_txt p{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hero h1, .hero p{
+    color: #5A2F27;
+}
+
+.hero_txt button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.hero_form {
+  background-color: #5b2b22;
+  color: #fff;
+  padding: 40px;
+  width: 400px;
+  border-top: 10px solid #fbb034;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  size: 10PX;
+}
+
+input{
+  background: none;
+  outline: none;
+  border: none;
+  padding: 8px;
+  color: white;
+  margin-left: 20px;
+}
+
+input:focus{
+  background: none;
+  border: none;
+  padding: 8px;
+  color: white;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  width: 150px;
+  margin-left: 27%;
+}
+
+label{
+     border-bottom: 1px solid #fff;
+     margin-bottom: 50px;
+     padding-right: 20px;
+}
+
+/* ================packages================ */
+
+.packages_h p{
+    padding: 20px 310px;
+    text-align: center;
+    
+}
+
+.packages_h{
+    text-align: center;
+    color: #5A2F27;
+}
+.main{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img_t img{
+    width: 150px;
+    height: 150px;
+}
+
+.txt{
+    background-color: #5A2F27;
+    color: white;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family:'Times New Roman';
+}
+
+.img_txt{
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.img_t{
+    position: absolute;
+    left: 70px;
+    top: -80px;
+}
+
+/* ================step================ */
+
+.step{
+    margin-bottom: 90px;
+}
+
+.step_h{
+    text-align: center;
+    margin-bottom: 70px;
+    color: #5A2F27;
+}
+
+.main_02{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.h_txt{
+    position: relative;
+}
+
+.step_txt{
+    background-color: #EDA911;
+    color: white;
+    line-height: 30px;
+    width: 300px;
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 0px 30px;
+}
+
+.h{
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    background-color: #5A2F27;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.h h5{
+    padding-top: 17px;
+    text-align: center;
+}
+
+/* ================client================ */
+
+.client{
+    display: flex;
+    justify-content: center;
+    background-color: #5A2F27;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.cr{
+    background-color: #EDA911;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.center{
+    background-color: white;
+}
+
+.mark{
+    background-color: white;
+    width: 550px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 15%;
+}
+
+.mark h3{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.image{
+    background-image: url(images/the-man-06.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -70px;
+    left: 37%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.client_img img{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+
+.say{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.say h2{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    size: 400px;
+}
+
+.fa-solid.fa-quote-left{
+    color: #EDA911;
+    font-size: 50px;
+}
+
+/* ==================qoute================ */
+
+.qoute{
+    text-align: center;
+    margin: 30px 60px;
+}
+
+.qoute h2{
+    font-size: 30px;
+}
+
+.qoute p{
+    color: #EDA911;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.qoute button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* ==================qoute================ */
+
+footer{
+    text-align: center;
+    background-color: #5A2F27;
+    color: white;
+    padding: 20px;
+}
