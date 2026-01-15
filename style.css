@@ -358,3 +358,7 @@ footer{
     color: white;
     padding: 20px;
 }
+
+.hero_txt button{
+    border: none;
+}
